@@ -149,7 +149,7 @@ end
 def num_points_scored(player_name)
   game_hash.each do |location, team_stats|
     #I want to look into the team_stats and find the :players
-    team_stats[:players].find do [player_stats]
+    team_stats[:players].find do |player_stats|
     #if player_stats includes player_name, then return points
       if player_stats.include? (player_name) 
         return player_stats[:points]
