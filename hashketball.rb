@@ -130,19 +130,22 @@ end
 
 # Write code here
 
-def num_points_scored(player_name)
+#def num_points_scored(player_name)
   #binding.pry
-  game_hash.each do |location, team_data|
+ # game_hash.each do |location, team_data|
    # binding.pry
-    team_data.each do |attribute, data|
+  #  team_data.each do |attribute, data|
     #  binding.pry
-      data.each do |data_item|
-        name = player_name
-        return [points] 
+   #   data.each do |data_item|
+    #    name = player_name
+     #   return [points] 
 #I want to pull out the name and # of points and 
-        binding.pry
-      end
-    end
-  end
-end
+      #  binding.pry
+      #end
+  #  end
+#  end
+#end
+
+def num_points_scored(player_name)
+  game_hash.each do |
 
