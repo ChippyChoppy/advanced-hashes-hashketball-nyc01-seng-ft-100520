@@ -153,5 +153,9 @@ def num_points_scored(player_name)
     #if player_stats includes player_name, then return points
       if player_stats.include? (player_name) 
         return player_stats[:points]
+      end
+    end
+  end
+end
     
 
