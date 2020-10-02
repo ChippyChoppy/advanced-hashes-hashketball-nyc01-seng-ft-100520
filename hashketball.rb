@@ -137,7 +137,7 @@ def num_points_scored(player_name)
     team_data.each do |attribute, data|
     #  binding.pry
       data.each do |data_item|
-        [name] = (player_name)
+        name = player_name
         return [points] 
 #I want to pull out the name and # of points and 
         binding.pry
