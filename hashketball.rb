@@ -183,4 +183,5 @@ def team_names
   game_hash.each do |location, team_stats|
    teams<< team_stats[:team_name]
  end
+ teams 
 end      
