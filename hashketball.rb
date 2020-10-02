@@ -187,6 +187,6 @@ def team_names
 end      
 
 def player_numbers(team_name)
-  jersey_numbers = [ ]
+  player_jersey = [ ]
   game_hash.each do |location, team_stats|
     team_stats[:players]
