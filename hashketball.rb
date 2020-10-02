@@ -197,4 +197,9 @@ def player_numbers(team_name)
   end
   player_jersey
 end
+
+def player_stats(name)
+  game_hash.each do |location, team_stats|
+    team_stats.each do |player_stats|
+      if player_stats[]
       
