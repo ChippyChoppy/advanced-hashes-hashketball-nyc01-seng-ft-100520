@@ -201,13 +201,12 @@ end
 def player_stats(name)
   game_hash.each do |location, team_stats|
     team_stats[:players].each do |player_stats|
-       binding.pry
       if player_stats[:player_name] == name
         return player_stats
-       
       end
     end
   end
 end
+
 
       
