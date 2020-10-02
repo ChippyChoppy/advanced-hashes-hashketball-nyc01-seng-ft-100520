@@ -189,4 +189,5 @@ end
 def player_numbers(team_name)
   player_jersey = [ ]
   game_hash.each do |location, team_stats|
-    team_stats[:players]
+    if team_stats[:players] == team_name
+      
