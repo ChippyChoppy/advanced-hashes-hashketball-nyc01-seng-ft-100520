@@ -180,6 +180,6 @@ end
 
 def team_names
   teams = [ ]
-  #game_hash.each do |location, team_stats|
-   # if team_stat[:team_name]
+  game_hash.each do |location, team_stats|
+   if team_stat[:team_name]
 end      
